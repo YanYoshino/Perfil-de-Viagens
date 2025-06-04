@@ -6,6 +6,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
 
+    font:var(--text-md);
 }
 #profile{
     display: flex;
@@ -18,9 +19,6 @@ header .container{
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 0.5rem;
-}
-#profile p{
-    font:var(--text-md);
 }
 
 #info{
